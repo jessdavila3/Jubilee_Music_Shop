@@ -105,16 +105,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 85vh;
+    height: 50vh;
 }
 
 #heroText {
     font-size: 5em;
     color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #heroTextMusic {
     padding-left: 2em;
+}
+
+footer {
+    background-color: #e5e5e5;
 }
 
 
