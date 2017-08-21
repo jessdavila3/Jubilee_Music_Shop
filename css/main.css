@@ -95,7 +95,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-size: 18pt;
+}
 
+#hero {
+    background-image: url("../img/headphones.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 85vh;
+}
+
+#heroText {
+    font-size: 5em;
+    color: white;
+}
+
+#heroTextMusic {
+    padding-left: 2em;
+}
 
 
 
